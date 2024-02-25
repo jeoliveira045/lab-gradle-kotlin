@@ -1,0 +1,11 @@
+[versions]
+guavaVer="31.1-jre"
+jbKotlinJvm="1.8.10"
+
+
+[libraries]
+guava = {module="com.google.guava:guava" , version.ref="guavaVer"}
+
+[plugins]
+kotlinJvm = {id="org.jetbrains.kotlin.jvm", version.ref="jbKotlinJvm"}
+
